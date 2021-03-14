@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Galeria de imagenes" />
+    <meta name="robots" content="index,follow"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <!-- La etiqueta video nos sirve para renderizar un video en la pagina -->
+        <!-- El atributo controls nos sirve para mostrar los botones de inicio en el video-->
+        <!-- El atributo preload nos sirve para que el video se vaya descargando mientras se renderiza la pagina-->
+        <!-- La etiqueta soruce nos sirve para darle multiples opciones de videos en caso el navegador no soporte alguno-->
+        
+        <video controls preload="auto" >
+            <source src="./videos/episodios.mp4#t=10,60" />
+            <source src="./videos/episodios.avi#t=10,60" />
+            <source src="./videos/episodios.m4v#t=10,60" />
+        </video>
+    </main>
+</body>
+</html>
