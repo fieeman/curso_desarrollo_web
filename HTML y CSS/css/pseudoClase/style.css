@@ -1,0 +1,34 @@
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0px;
+    background-color: #13a4a4;
+}
+.main-nav__item {
+    display: inline-block;
+}
+.main-nav__item a {
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+/* pseudoClases 
+Estas definen el estilo de un estado
+*/
+.main-nav__item a:hover {
+    color: blue;
+}
+.main-nav__item a:active {
+    color: red;
+}
+/* pseudoElementos 
+Estas definen el estilo de una parte especifica de un elemento
+*/
+.main-nav__item a::after {
+    content: " | ";
+}
+
+/* BEM: https://en.bem.info/methodology/faq/#a-block-or-an-element-which-one-should-i-create*/
+/* Pseudo Elementos: https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-elements */
+/* Pseudo Clases: https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-classes */
