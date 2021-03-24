@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.text-container {
+    font-size: 1.6rem;
+}
+
+/* Con esto hacemos que 1rem equivalga a 10px */

@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+}
+
+.text-container {
+    font-size: 1.5em; /* 1em equivale al tamaño de fuente del padre directo */
+}
+
+.text-container div {
+    font-size: 1.5em;
+}
+
+/*El problema de esto es que el tamaño de fuente del div seria 1.5x(1.5x18px) */

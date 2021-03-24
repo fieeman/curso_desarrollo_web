@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*
+Hermano adyacente mas cercano (Adjacent sibling)
+A todas las etiquetas p que esten cerca a una etiqueta h2 aplicale el color rojo
+
+h2 + p {
+    color: red;
+}
+*/
+
+/*
+Hermano general (General Sibling)
+A todos 
+A todas las etiquetas p que tengas 'arriba' a una etiqueta h2 aplicale el color rojo 
+
+h2 ~ p {
+    color: red;
+}
+*/
+
+/*
+Hijo (Child Sibling)
+
+A la etiquta p que sea hija directa de una etiqueta div 
+
+div > p {
+    color: red;
+}
+*/
+
+/*
+Descendiente ()
+A todas las etiquetas p que estan dentro de una etiqueta div aplicalele el color rojo
+*/
+
+div p {
+    color: red;
+}
