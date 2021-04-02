@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    font-size: 1.6rem;
+    padding: 1rem;
+    position: absolute;
+    height: 60%;
+    width: 100%;
+}
+
+.container-box__title {
+    background:skyblue;
+    border-radius: 1rem;
+    position: relative;
+    z-index:1;
+    width: 60%;
+    height: 15%;
+    text-align: center;
+    vertical-align: middle;
+    left: 20%;
+
+}
+.container-box__title h1 {
+    padding-top: 1rem;
+}
+.container-box__body{
+    background: grey;
+    border-radius: 1rem;
+    position: relative;
+    bottom:2rem;
+}
+.container-box__body p {
+    bottom:-2rem;
+    text-align: justify;
+}
+.container-box__img{
+    left: 100%;
+    width: 50%;
+    height: 50%;
+    left: 25%;
+    bottom:-1rem;
+    position: relative;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
