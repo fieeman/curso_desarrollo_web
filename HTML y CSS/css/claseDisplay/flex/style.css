@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.container{
+    border: 0.3rem solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* se ajusta al tamaño de la pantalla*/
+    justify-content: space-evenly;
+}
+
+.box{
+    width: 8rem;
+    height: 8rem;
+}
+
+.box1{
+    background-color: blue;
+}
+.box2{
+    background-color: blueviolet;
+}
+.box3{
+    background-color: green;
+}
+.box4{
+    background-color: greenyellow;
+}
+.box5{
+    background-color: yellow;
+}
+.box6{
+    background-color: yellowgreen;
+}
+
+
+/*
+Display flex por defecto acomoda en fila (row), se puede manipular con felx-direction
+*/
